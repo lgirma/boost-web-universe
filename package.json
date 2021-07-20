@@ -1,7 +1,7 @@
 {
   "name": "boost-web-universe",
   "version": "0.1.0",
-  "description": "Lots of plugins for boost-web library",
+  "description": "Recommended set of plugins for boost-web library",
   "main": "dist/boost-web-universe.cjs.js",
   "module": "dist/boost-web-universe.es.js",
   "types": "dist/types/index.d.ts",
