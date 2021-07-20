@@ -1,0 +1,58 @@
+{
+  "name": "boost-web-universe",
+  "version": "0.1.0",
+  "description": "Lots of plugins for boost-web library",
+  "main": "dist/boost-web-universe.cjs.js",
+  "module": "dist/boost-web-universe.es.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc -p tsconfig.typedec.json",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgirma/boost-web-universe.git"
+  },
+  "keywords": [
+    "boost-web"
+  ],
+  "author": "Leone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lgirma/boost-web-universe/issues"
+  },
+  "homepage": "https://github.com/lgirma/boost-web-universe#readme",
+  "devDependencies": {
+    "typescript": "^4.3.2",
+    "vite": "^2.4.1"
+  },
+  "dependencies": {
+    "topbar": "^1.0.1"
+  },
+  "peerDependencies": {
+    "boost-web": "file:../boost-web",
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^5.0.2",
+    "popper.js": "^1.16.1"
+  },
+  "peerDependenciesMeta": {
+    "bootstrap": {
+      "optional": true
+    },
+    "popper.js": {
+      "optional": true
+    },
+    "@fortawesome/fontawesome-free": {
+      "optional": true
+    },
+    "topbar": {
+      "optional": true
+    }
+  },
+  "files": [
+    "README.md",
+    "dist",
+    "package.json"
+  ]
+}

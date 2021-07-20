@@ -1,0 +1,1 @@
+export * from './Fontawesome5IconService'
